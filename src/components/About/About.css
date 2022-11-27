@@ -1,0 +1,21 @@
+.about {
+  height: 100%;
+  background: url('../../assets/sweet.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .intro {
+  box-sizing: border-box;
+  font-size: 1.25vw;
+  width: 40%;
+  height: 100%;
+  padding: 7vmin;
+  background: rgba(255, 255, 255, 0.5);
+  color: #6441f4;
+  box-shadow: -5px 5px 25px #000;
+  text-align: justify;
+  text-indent: 1.5em;
+}

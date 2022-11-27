@@ -1,0 +1,29 @@
+.footer {
+  background: rgba(0, 0, 0);
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vmin;
+}
+
+.footer .copyright {
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+}
+
+.footer .social .icon {
+  color: #fff;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+
+.footer .social .icon:hover {
+  transform: scale(1.3);
+}

@@ -1,0 +1,66 @@
+.contact {
+  height: 100%;
+  background: url('../../assets/contact-background.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 7vmin;
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+
+.contact label {
+  font-weight: bold;
+}
+
+.form-container {
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(242, 242, 242, 0.8);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1vh 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 12px 20px;
+  margin: 1vh 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 2vh 2vw;
+  margin: 1vh 0;
+  border-radius: 4px;
+  font-size: 1.75vmin;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+}
