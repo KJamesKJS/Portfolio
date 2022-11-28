@@ -7,8 +7,17 @@ import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <div className="App">
-      fskfje;sjefks;
+      <header className="App-header">
+        <p>Welcome to my fisrt application.</p>
+      </header>
     </div>
+    /*
+    <div className="App">
+      <Nav />
+      <Main />
+      <Footer />
+    </div>
+    */
   );
 };
 
